@@ -2,8 +2,10 @@
 Pydon scrapes the World Health Organization's Disease Outbreak News reports. Reports can be searched by date only for now, but future versions will allow searching by disease. Pydon outputs lines of the DON text that contain numbers. If there is a table in the DON, there is an option to output the table to .csv. Requirements are Beautiful Soup 4 and pandas.
 
 ### Example
-`text = main('2014_08_', True)`
-> 2014-08-15  ebola haemhorragic fever
+In: `text = main('2014_08_', True)`  
+
+Out:
+`2014-08-15  ebola haemhorragic fever
                  New (1)\n Confirmed Probable Suspect Totals
 1         Guinea                                            
 2          Cases         9       376      133      10    519
@@ -30,7 +32,7 @@ On 13 August, Heads of Global Information Systems (GIS) for WHO, UN agencies, in
 © 
         WHO 2014
 ## End of DON ##
-
+`
 
 Caitlin Rivers    
 cmrivers@vbi.vt.edu
